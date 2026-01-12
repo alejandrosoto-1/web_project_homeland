@@ -10,8 +10,19 @@
     height: 68.94px;
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 544px) and (max-width: 1023px) {
     .header__logo {
-        width: 188px;
+        max-width: calc((254% / 768) * 100);
+        max-height: calc((66% / 768) * 100);
+        margin-top: calc((30% / 768) * 100);
+    }
+
+}
+
+@media screen and (max-width: 543px) {
+    .header__logo {
+        max-width: calc((188% / 320) * 100);
+        max-height: calc((52% / 320) * 100);
+        margin-top: calc((20% / 320) * 100);
     }
 }

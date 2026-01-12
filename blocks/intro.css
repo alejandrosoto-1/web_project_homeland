@@ -73,23 +73,14 @@
         font-size: 2rem;
         line-height: 1.2;
     }
-}
-
-@media (max-width: 320px) {
     .intro__text-quote {
         font-size: 1.5rem;
         line-height: 1.5;
     }
-}
-
-@media (max-width: 320px) {
     .intro__text-author {
         font-size: 1.5rem;
         line-height: 2;
     }
-}
-
-@media (max-width: 320px) {
     .intro__text-paragraph {
         font-size: 1rem;
         line-height: 1.6;
