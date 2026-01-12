@@ -1,3 +1,7 @@
+.places {
+  margin: 92px 145px 0 145px;
+}
+
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,6 +76,10 @@
 }
 
 @media (max-width: 1024px) {
+  .places {
+    margin: 88px 24px 0 24px;
+  }
+  
   .place__title {
     font-size: 42px;
   }
@@ -89,6 +97,10 @@
 }
 
 @media (max-width: 544px) {
+  .places {
+      margin: 62px 0 0 0;
+  }
+
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -124,21 +136,5 @@
 
   .place__button {
     max-width: 100%;
-  }
-}
-
-.places {
-  margin: 92px 145px 0 145px;
-}
-
-@media (max-width: 1024px) {
-  .places {
-    margin: 88px 24px 0 24px;
-  }
-}
-
-@media (max-width: 544px) {
-  .places {
-    margin: 62px 0 0 0;
   }
 }
